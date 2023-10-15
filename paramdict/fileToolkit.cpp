@@ -2,12 +2,12 @@
 bool filetoolkit::FILETOOLKIT::isFileModifiedByTime(const std::string& path_){
     struct stat fileStat;
     static time_t lastModifiedTime = 0;
-    if (stat(path_.c_str(), &fileStat) != 0) {
+    if(stat(path_.c_str(), &fileStat) != 0){
         std::cerr << "Error stating file stats: " << stderr << std::endl;
         return false;
     }
     std::time_t modifiedTime = fileStat.st_mtime;
-    if (lastModifiedTime == 0 && lastModifiedTime != modifiedTime) {
+    if(lastModifiedTime == 0 && lastModifiedTime != modifiedTime){
         lastModifiedTime = modifiedTime;
         return false;
     }
