@@ -1,0 +1,56 @@
+float64 VW_MAX_THRESHOLD = 4.0
+
+int64 ARMOR_TRACK_DROP_FRAME_INDEX = 75
+int64 DEBUG_STATE = 11
+int64 DETECT_COLOR = 0
+
+float64 CAM_FX = 1.7474e+03
+float64 CAM_FY = 1.7487e+03
+float64 CAM_X0 = 640.0
+float64 CAM_Y0 = 170.0
+float64 CAM_K1 = -0.0034
+float64 CAM_K2 = -0.7868
+float64 CAM_P1 = -0.0060
+float64 CAM_P2 = -0.0059
+float64 CAM_K3 = 5.0972
+
+string INFAN_VECTOR_PATH = src/config/Infan_vectors.txt
+string INFAN_COEFF_PATH = src/config/Infan_coeff.txt
+
+float64 X_OFFSET = 0.0
+float64 Y_OFFSET = 59.15
+float64 Z_OFFSET = -61.45
+
+float64 YAW_OFFSET = 0.0
+float64 PITCH_OFFSET = 0.0
+
+float64 RAW_VALUE = 120.0
+float64 SIGMA2_Q_XYZ = 20.0
+float64 SIGMA2_YAW = 100.0
+float64 SIGMA2_Q_R = 800.0
+float64 R_XYZ_FACTOR = 0.02
+float64 R_YAW = 0.02
+
+float64 UIX_OFFSET = 0.0
+float64 UIY_OFFSET = 117.57
+float64 UIZ_OFFSET = -8.8
+float64 VDUIX = 1280.0
+float64 VDUIY = 720.0
+float64 CDUIX = 1920.0
+float64 CDUIY = 1080.0
+float64 UIMATHX = 0.33
+float64 UIMATHY = -1.55
+
+float64 BOPAN_TIME = 0.0
+float64 BOPAN_TIME7 = 0.0
+float64 SHOOT_SPEED = 15.0
+
+float64 GYRO_VW_THRESHOLD = 1.0
+int64 GYRO_CNT_THRESHOLD = 8
+int64 ZIMIAO_CNT = 20
+
+float64 HITABLE_RANGE = 0.03
+
+float64 BASE_TO_GUN_X = 0.2064
+float64 BASE_TO_GUN_Y = 0.0
+float64 BASE_TO_GUN_Z = 0.2450
